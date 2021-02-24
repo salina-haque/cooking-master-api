@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgba(187, 176, 17, 0.774);
+}
+.nav-heading{
+    color:rgb(19, 11, 59);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.navbar-nav{
+    margin-left: auto;
+}
+.search-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+input, button{
+    outline: none;
+}
+#search-input{
+    padding: 15px 8px;
+    padding-right: 150px;
+    border: none;
+    border-radius: 2px;
+    background-color: white;
+}
+#search-btn{
+    border:none;
+    border-radius: 2px;
+    padding: 10px;
+    background-color: coral;
+    color: white;
+}
+#meal-section{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 30px;
+    justify-content: center;
+    align-content: center;
+}
+#meal-info{
+    width: 200px;
+    height: 250px;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+#meal-info img , #meal-content img{
+    width: 100%;
+}
+#meal-info h6{
+    margin-top: 8px;
+    text-align: center;
+    font-size: 15px;
+}
+#meal-not-found , #meal-not-given{
+    margin: 20px auto;
+    width: 50%;
+    text-align: center;
+    display: none;
+}
+#meal-content{
+    margin-top: 30px;
+    width: 350px;
+    background-color: white;
+    display: none;
+}
+#meal-content h4, h5{
+    margin-left: 5px;
+}
+#meal-content ul li{
+    list-style-type: none;
+}
